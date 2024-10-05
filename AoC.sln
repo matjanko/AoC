@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6B6F031D-74BD-4D69-8930-9BD2F224344A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2023", "2023", "{F5B0CA69-9968-45EF-AB7D-ACF8175D4160}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{2377FD88-2463-428C-ABA9-9A31F775161F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F5B0CA69-9968-45EF-AB7D-ACF8175D4160} = {6B6F031D-74BD-4D69-8930-9BD2F224344A}
+		{2377FD88-2463-428C-ABA9-9A31F775161F} = {F5B0CA69-9968-45EF-AB7D-ACF8175D4160}
+	EndGlobalSection
+EndGlobal
