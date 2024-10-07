@@ -2,12 +2,10 @@
 
 Console.WriteLine("--- Day 1: Calorie Counting ---");
 var inputs = File.ReadAllLines("../../../Input.txt");
-var elves = new ElvesFactory(inputs).CreateElves().ToList();
-var maxCalories = elves.Max(x => x.Calories);
+var expedition = new Expedition(inputs);
 
 Console.WriteLine("--- Part One ---");
-Console.WriteLine(maxCalories);
+Console.WriteLine(expedition.MaxCalories.ToString());
 
 Console.WriteLine("--- Part Two ---");
-var calories = elves.OrderByDescending(x => x.Calories).Take(3).Sum(x => x.Calories);
-Console.WriteLine(calories);
+Console.WriteLine(expedition.ThreeHighestCaloriesSum);
