@@ -1,6 +1,6 @@
 ﻿using HistorianHysteria;
 
-Console.WriteLine("--- Day 1: Calorie Counting ---");
+Console.WriteLine("--- Day 1: Historian Hysteria ---");
 var inputs = File.ReadAllLines("../../../Input.txt");
 var calculator = new LocationsCalculator(inputs);
 
